@@ -4,7 +4,7 @@ const express = require('express');
 const path = require('path');
 const exphbs = require('express-handlebars');
 const bodyparser = require('body-parser');
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8000;
 
 const employeeController = require('./controllers/employeeController');
 
